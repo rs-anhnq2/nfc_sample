@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nfc_sample"
+4    android:versionCode="1"
+5    android:versionName="1.0.10" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.NFC" />
+15-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:5:5-62
+15-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:5:22-59
+16
+17    <uses-feature
+17-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:6:5-81
+18        android:name="android.hardware.nfc"
+18-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:6:19-54
+19        android:required="true" />
+19-->/Users/quyenanh/projects/nfc_sample/android/app/src/main/AndroidManifest.xml:6:55-78
+20
+21    <application
+22        android:name="android.app.Application"
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] /Users/quyenanh/.gradle/caches/transforms-2/files-2.1/3db6d125c6afcb0a6fe221b28e1b5f57/core-1.6.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+26        android:label="nfc_sample" >
+27        <activity
+28            android:name="com.example.nfc_sample.MainActivity"
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30            android:exported="true"
+31            android:hardwareAccelerated="true"
+32            android:launchMode="singleTask"
+33            android:theme="@style/LaunchTheme"
+34            android:windowSoftInputMode="adjustResize" >
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+43                android:name="io.flutter.embedding.android.NormalTheme"
+44                android:resource="@style/NormalTheme" />
+45
+46            <intent-filter>
+47                <action android:name="android.intent.action.MAIN" />
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+50            </intent-filter>
+51            <!-- need write app -->
+52            <intent-filter>
+53                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+56
+57                <data android:mimeType="text/plain" />
+58            </intent-filter>
+59            <!-- <data android:scheme="vnd.android.nfc" -->
+60            <!-- android:host="ext" -->
+61            <!-- android:pathPrefix="/com.example.nfc_sample:externalType"/> -->
+62
+63
+64            <!-- <data android:mimeType="application" /> -->
+65            <!-- For unmapped or Non-NDEF formatted tag -->
+66            <!-- see more: https://developer.android.com/guide/topics/connectivity/nfc/nfc#tech-disc -->
+67            <!--
+68            <intent-filter>
+69                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+70            </intent-filter>
+71            <meta-data android:name="android.nfc.action.TECH_DISCOVERED" android:resource="@xml/nfc_tech_filter" />
+72            -->
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+79            android:name="flutterEmbedding"
+80            android:value="2" />
+81    </application>
+82
+83</manifest>

@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/nfc_sample/BuildConfig.java
+ com.example.nfc_sample.BuildConfig

@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.NFC
+ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:4:5-62
+	android:name
+		ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml:4:22-59
+uses-sdk
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+		ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+		ADDED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/quyenanh/.pub-cache/git/flutter-nfc-plugin-b8bf37718b293f4dce8434543705d5527e8c610d/android/src/main/AndroidManifest.xml

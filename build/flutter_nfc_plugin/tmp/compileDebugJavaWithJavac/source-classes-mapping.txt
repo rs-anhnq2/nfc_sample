@@ -1,0 +1,2 @@
+it/dukhanov/flutter/nfc_plugin/BuildConfig.java
+ it.dukhanov.flutter.nfc_plugin.BuildConfig
